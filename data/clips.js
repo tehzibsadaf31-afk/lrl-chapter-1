@@ -1,0 +1,23 @@
+window.LRL_CLIPS = [
+  { "id": "c_ex1", "text": "Asha had a blue notebook." },
+  { "id": "c_ex2", "text": "She wrote questions in it because her curiosity never seemed to rest." },
+  { "id": "c_ex3", "text": "Asha made a sketch of the road and the ditch." },
+  { "id": "c_a1", "text": "Leaves and plastic covered its narrow opening." },
+  { "id": "c_a2", "text": "She shared her drawing with the community worker, who promised to discuss a lasting solution." },
+  { "id": "c_a3", "text": "A community worker brought gloves and a bag." },
+  { "id": "d_ex1", "text": "Asha smiled." },
+  { "id": "d_ex2", "text": "Every morning, Asha walked along a muddy road to school." },
+  { "id": "d_ex3", "text": "The road filled with water." },
+  { "id": "d_b", "text": "Asha walked along a muddy road to school." },
+  { "id": "e_had", "text": "had." },
+  { "id": "e_bag", "text": "bag." },
+  { "id": "e_wet", "text": "wet." },
+  { "id": "s_h", "text": "<phoneme alphabet=\"ipa\" ph=\"hə\">h</phoneme>", "model": "eleven_flash_v2", "fallback": "huh" },
+  { "id": "s_ae", "text": "<phoneme alphabet=\"ipa\" ph=\"æ\">a</phoneme>", "model": "eleven_flash_v2", "fallback": "aah" },
+  { "id": "s_d", "text": "<phoneme alphabet=\"ipa\" ph=\"də\">d</phoneme>", "model": "eleven_flash_v2", "fallback": "duh" },
+  { "id": "s_b", "text": "<phoneme alphabet=\"ipa\" ph=\"bə\">b</phoneme>", "model": "eleven_flash_v2", "fallback": "buh" },
+  { "id": "s_g", "text": "<phoneme alphabet=\"ipa\" ph=\"ɡə\">g</phoneme>", "model": "eleven_flash_v2", "fallback": "guh" },
+  { "id": "s_w", "text": "<phoneme alphabet=\"ipa\" ph=\"wə\">w</phoneme>", "model": "eleven_flash_v2", "fallback": "wuh" },
+  { "id": "s_e", "text": "<phoneme alphabet=\"ipa\" ph=\"ɛ\">e</phoneme>", "model": "eleven_flash_v2", "fallback": "eh" },
+  { "id": "s_t", "text": "<phoneme alphabet=\"ipa\" ph=\"tə\">t</phoneme>", "model": "eleven_flash_v2", "fallback": "tuh" }
+];

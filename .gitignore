@@ -1,0 +1,5 @@
+﻿# never publish keys or private tools
+.env
+*.env
+tools/
+

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LRL Chapter 1 – Listen and Read</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/words.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">LRL Series · Chapter 1</p>
+      <h1 id="chapter-title">The Notebook of Questions</h1>
+      <p class="hero-sub"><span class="chip">A</span> Listen and Read</p>
+    </div>
+    <img class="hero-img" data-scene="listen" data-fallback="images/hero.jpg" alt="Asha reads aloud from her blue notebook under a mango tree while Tuli and Nila listen, with musical notes floating out of the book.">
+  </div>
+</header>
+
+<div class="controls-wrap">
+  <div class="controls" role="group" aria-label="Story player">
+    <button id="play-btn" class="ctl play" type="button">
+      <span class="ico" aria-hidden="true">▶</span>
+      <span class="en">Play</span><span class="bn">চালাও</span>
+    </button>
+    <button id="pause-btn" class="ctl pause" type="button" disabled>
+      <span class="ico" aria-hidden="true">⏸</span>
+      <span class="en">Pause</span><span class="bn">থামাও</span>
+    </button>
+    <button id="slow-btn" class="ctl slow" type="button" aria-pressed="false">
+      <span class="ico" aria-hidden="true">🐢</span>
+      <span class="en">Slower</span><span class="bn">ধীরে</span>
+    </button>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="hint">👆 যেকোনো শব্দে ক্লিক করো — সিলেবল, বাংলা অর্থ ও ধীর উচ্চারণ দেখতে পাবে।
+    <span class="vocab-sample">বেগুনি দাগ</span> দেওয়া শব্দগুলো এই চ্যাপ্টারের নতুন শব্দ।</p>
+
+  <article id="story" class="story" aria-label="The story"></article>
+
+  <p id="closing" class="closing"></p>
+  <p id="mode-note" class="mode-note" hidden></p>
+  <div id="section-nav" hidden></div>
+</main>
+
+<dialog id="word-dialog" aria-labelledby="wd-word">
+  <button id="wd-close" class="wd-close" type="button" aria-label="Close">×</button>
+  <p id="wd-tag" class="wd-tag" hidden>⭐ নতুন শব্দ · VOCABULARY</p>
+  <h2 id="wd-word" class="wd-word"></h2>
+  <div id="wd-syl" class="wd-syl"></div>
+  <p id="wd-syl-note" class="wd-note"></p>
+  <p id="wd-pron" class="wd-pron" hidden></p>
+  <div class="wd-meaning"><span class="wd-k">বাংলা অর্থ</span><span id="wd-bn"></span></div>
+  <button id="wd-replay" class="replay" type="button">🔊 ধীরে আবার শোনো</button>
+</dialog>
+
+<script src="data/chapter1.js"></script>
+<script src="audio/manifest.js" onerror="void 0"></script>
+<script src="js/secnav.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scene-img.js"></script>
+</body>
+</html>
+
